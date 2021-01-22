@@ -151,6 +151,10 @@ color: var(--accent-color);
     text-decoration: none; 
 }
 
+.contacts-icon{
+    color: var(--secondary-text-color);
+    margin-left: 10px;
+}
 .contacts-list-link {
     margin-right: 50px;
     line-height: 16px;
@@ -306,7 +310,7 @@ color: var(--accent-color);
     padding-bottom: 94px;
 }
 
-.our-team-title{
+.our-team-title {
     margin-bottom: 50px;
     font-style: normal;
     font-weight: bold;
@@ -351,7 +355,7 @@ color: var(--accent-color);
     width: 100%;
     height: 100%;
     border-radius: 50%;
-    fill: currentColor;
+    fill: #AFB1B8;
     color: inherit;
 }
 .social-item:not(:last-child) {
@@ -431,6 +435,61 @@ color: var(--accent-color);
 .contacts:active,
 .contacts:focus {
     color: var(--accent-color);
+}
+
+/* Our clients */
+
+.our-clients{
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.our-clients-title{
+    margin-bottom: 50px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--primary-text-color);
+}
+
+.our-clients-list{
+    display: flex;
+}
+
+.our-clients-item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 170px;
+    height: 90px;
+}
+
+.our-clients-link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    color:#AFB1B8;
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+}
+.our-clients-item:not(:last-child) {
+    margin-right: 30px;
+}
+
+.our-clients-icon{
+    fill: currentColor;
+}
+
+.our-clients-link:hover,
+.our-clients-link:focus{
+    color: var(--accent-color);
+    border-color: var(--accent-color);
+    outline: none;
 }
 
 /* Portfolio.html */

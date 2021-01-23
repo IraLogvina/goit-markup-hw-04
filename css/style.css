@@ -64,6 +64,8 @@ a{
     align-items: center;
 }
 
+/* Параметры для div "conteiner" */
+
 .conteiner{
     width: 1200px;
     margin-left: auto;
@@ -72,14 +74,14 @@ a{
     padding-left: 15px;
 }
 
-/* Navigation */
+/* Navigation - Навигация по сайту */
 
 .nav-info{
     display: flex;
     align-items: center;
 }
 
-/* Logo WebStudio */
+/* Logo WebStudio - Оформление логотипа */
 
 .logo{
     font-family: "Raleway", sans-serif;
@@ -109,6 +111,8 @@ a{
     color: var(--accent-color);
 }
 
+/* Оформление навигационного списка */
+
 .nav-list{
     display: flex;
     margin: 0 0 0 93px;
@@ -133,13 +137,19 @@ a{
     padding-bottom: 32px;
 }
 
+.nav-list-link:hover,
+.nav-list-link:active,
+.nav-list-link:focus {
+    color: var(--accent-color);
+}
+
 /* Подсвечивание текущей ссылки */
 
 .nav-list .nav-list-link.current {
 color: var(--accent-color);
 }
 
-/* Contacts */
+/* Contacts - Контакты */
 
 .contacts-list{
     display: flex;
@@ -152,29 +162,29 @@ color: var(--accent-color);
 }
 
 .contacts-icon{
-    color: var(--secondary-text-color);
-    margin-left: 10px;
+    margin-right: 10px;
 }
+
 .contacts-list-link {
+    display: flex;
+    align-items: center;
     margin-right: 50px;
     line-height: 16px;
     letter-spacing: 0.02em;
     color: var(--secondary-text-color);
     text-decoration: none; 
+    fill:currentColor;
     padding-top: 32px;
     padding-bottom: 32px;
 }
 
-.contacts-list-link:hover, .contacts-list-link:active, .contacts-list-link:focus {
+.contacts-list-link:hover, 
+.contacts-list-link:active, 
+.contacts-list-link:focus{
     color: var(--accent-color);
 }
 
-.nav-list-link:hover, .nav-list-link:active, .nav-list-link:focus {
-    color: var(--accent-color);
-}
-
-/* Hero section */
-
+/* Hero section - Секция Герой */
 
 .hero-section{
     text-align: center;
@@ -221,7 +231,7 @@ color: var(--accent-color);
     cursor: pointer;
 }
 
-/* Our features */
+/* Our features - Наши преимущества */
 
 .visually-hidden {
     position: absolute;
@@ -280,7 +290,7 @@ color: var(--accent-color);
     color: var(--secondary-text-color);
 }
 
-/* What we do */
+/* What we do - Чем мы занимаемся */
 
 .what-we-do-title{
     margin-bottom: 50px;
@@ -302,7 +312,7 @@ color: var(--accent-color);
     margin-right: 30px;
 }
 
-/* Our team */
+/* Our team - Наша команда */
 
 .our-team{
     background: #F5F4FA;
@@ -373,7 +383,7 @@ color: var(--accent-color);
     fill: var(--white-text-color);
 }
 
-/* Our team members */
+/* Our team members - Члены нашей команды */
 
 .person-title{
     margin-bottom: 10px;
@@ -397,24 +407,33 @@ color: var(--accent-color);
     color: var(--secondary-text-color);
 }
 
-/* Address and Contacts*/
+/* Address and Contacts - Адрес и контакты подвал, Соц. сети */
 
-.footer-list{
+.footer {
     padding-top: 60px;
     padding-bottom: 60px;
-    left: 0px;
-    top: 2097px;
     background: #2F303A;
+}
+
+.footer .conteiner{
+    display: flex;
+    align-items: baseline;
 }
 
 .contacts-item {
     margin-bottom: 9px;
 }
 
-.footer-list .logo{
+.contacts-footer{
+    margin-right: 70px;
+}
+
+.footer .logo{
     display: block;
     margin-bottom: 20px;
+    padding: 0 0 0 0;
 }
+
 .address{
     line-height: 24px;
     /* or 171% */
@@ -437,7 +456,56 @@ color: var(--accent-color);
     color: var(--accent-color);
 }
 
-/* Our clients */
+.social-links-footer{
+    width: 206px;
+}
+
+.social-title-footer{
+    margin-top: 0px;
+    margin-bottom: 20px;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--white-text-color);
+}
+
+.social-list-item-footer{
+    width: 44px;
+    height: 44px;
+}
+
+.footer .social-link-footer{
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.social-links-list-footer{
+    display: flex;
+}
+
+.social-list-item-footer:not(:last-child) {
+    margin-right: 10px;
+}
+
+.social-link-footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    fill: currentColor;
+    color: var(--white-text-color);
+}
+
+.social-link-footer:hover,
+.social-link-footer:focus{
+    background-color: var(--accent-color);
+    color: var(--white-text-color);
+    fill: var(--white-text-color);
+}
+
+/* Our clients - Наши клиенты */
 
 .our-clients{
     padding-top: 94px;
@@ -492,9 +560,9 @@ color: var(--accent-color);
     outline: none;
 }
 
-/* Portfolio.html */
+/* Portfolio.html - Страница Портфолио */
 
-/* Service conteiner */
+/* Service conteiner - Наши работы - кнопки и карточки */
 
 .our-works{
     padding-top: 94px;
@@ -572,4 +640,9 @@ color: var(--accent-color);
 
 .work-examples-item:nth-last-child(-n + 3) {
     margin-bottom: 0px;
+}
+
+.work-examples-item:hover,
+.work-examples-item:focus{
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }

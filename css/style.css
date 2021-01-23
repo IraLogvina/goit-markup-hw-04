@@ -375,6 +375,7 @@ color: var(--accent-color);
 .social-icon{
     width: 20px;
     height: 16px;
+    display: 1!important;
 }
 
 .social-link:hover,

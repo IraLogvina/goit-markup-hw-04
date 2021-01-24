@@ -174,8 +174,6 @@ color: var(--accent-color);
     color: var(--secondary-text-color);
     text-decoration: none; 
     fill:currentColor;
-    padding-top: 32px;
-    padding-bottom: 32px;
 }
 
 .contacts-list-link:hover, 
@@ -189,7 +187,6 @@ color: var(--accent-color);
 .hero-section{
     text-align: center;
     padding: 200px 0;
-    margin-bottom: 94px;
     margin-left: auto;
     margin-right: auto;
     background-image: linear-gradient(
@@ -248,7 +245,8 @@ color: var(--accent-color);
 
 .features-section{
     display: flex;
-    margin-bottom: 94px;
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
 
 .feature-list{
@@ -291,6 +289,10 @@ color: var(--accent-color);
 }
 
 /* What we do - Чем мы занимаемся */
+
+.what-we-do{
+    padding-bottom: 94px;
+}
 
 .what-we-do-title{
     margin-bottom: 50px;

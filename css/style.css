@@ -133,6 +133,9 @@ a{
     letter-spacing: 0.02em;
     color: var(--primary-text-color);
     text-decoration: none; 
+    padding-top: 32px;
+    padding-bottom: 32px;
+    align-items: center;
 }
 
 .nav-list-link:hover,
@@ -172,6 +175,8 @@ color: var(--accent-color);
     color: var(--secondary-text-color);
     text-decoration: none; 
     fill:currentColor;
+    padding-top: 32px;
+    padding-bottom: 32px;
 }
 
 .contacts-list-link:hover, 

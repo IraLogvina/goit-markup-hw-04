@@ -133,8 +133,6 @@ a{
     letter-spacing: 0.02em;
     color: var(--primary-text-color);
     text-decoration: none; 
-    padding-top: 32px;
-    padding-bottom: 32px;
 }
 
 .nav-list-link:hover,

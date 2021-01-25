@@ -55,6 +55,8 @@ a{
 
 .header{
     border: 1px solid #ECECEC;
+    padding-top: 24px;
+    padding-bottom: 25px;
 }
 
 /* Выравние элементов шапки в одну линию */
@@ -92,9 +94,7 @@ a{
     /* identical to box height */
     letter-spacing: 0.03em;
     color: var(--accent-color);
-    text-decoration: none; 
-    padding-top: 24px;
-    padding-bottom: 24px;
+    text-decoration: none;
 }
 
 .logo-studio{

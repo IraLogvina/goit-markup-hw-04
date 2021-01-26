@@ -171,7 +171,8 @@ color: var(--accent-color);
 }
 
 .contacts-list-link {
-    display: block;
+    display: flex;
+    align-items: center;
     line-height: 16px;
     letter-spacing: 0.02em;
     color: var(--secondary-text-color);

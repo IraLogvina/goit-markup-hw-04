@@ -201,17 +201,15 @@ color: var(--accent-color);
 
 .hero-section{
     text-align: center;
-    max-width: 1600;
-    margin: auto;
     padding: 200px 0;
     margin-left: auto;
     margin-right: auto;
     background-image: linear-gradient(
         to right,
         var(--hero-gradient-color),
-        var(--hero-gradient-color)
-    ),
-    url('../images/img-hero.jpg');
+        var(--hero-gradient-color)),
+        
+    url("../images/img-hero.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
